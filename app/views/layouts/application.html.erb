@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby on Rails biblioteka by Rusmir Gadžo</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+  <div id="siteTitle">Ruby on Rails biblioteka</div>
+  <div id="sitePhoto">
+    <div id="sitePhotoDesc">Bibliothek des Bayerischen Landtags</div>
+  </div>
+
+  </header>
+
+<%= yield %>
+
+</body>
+</html>
